@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para Lilian — 26</title>
+<meta name="description" content="Algo que se hizo pensando en ti.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Para Lilian — 26">
+<meta property="og:description" content="Algo que se hizo pensando en ti.">
+<meta property="og:image" content="assets/images/foto02.jpg">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="assets/images/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="app">
+  <section id="intro" class="screen"><div id="introText"></div>
+    <button id="startBtn" class="btn" hidden>Comenzar</button></section>
+  <section id="stage" class="screen" hidden></section>
+  <section id="wish" class="screen" hidden>
+    <p id="wishText"></p>
+    <div id="orb"><i class="ring"></i><i class="core"></i></div>
+    <p id="wishHint">Mantén presionado</p></section>
+  <section id="pause" class="screen" hidden><p id="pauseText"></p><p id="counter" aria-hidden="true"></p></section>
+  <section id="finale" class="screen" hidden>
+    <div id="finalText"></div>
+    <div id="finalPhoto"><img src="assets/images/foto13.jpg" alt=""></div></section>
+  <section id="mosaic" class="screen" hidden>
+    <div id="grid"></div><div id="mosaicVeil"></div>
+    <div id="mosaicTitle"><h1>Feliz cumpleaños, Lilian</h1><p>26 ✨</p></div></section>
+  <section id="outro" class="screen" hidden><p id="outroText">Que este sea solo el comienzo de un año increíble.</p>
+    <button id="replayBtn" class="btn">Volver a ver</button></section>
+  <div id="prog"></div><div id="grain"></div>
+  <button id="musicHint" class="hint" hidden>Toca aquí para comenzar la música</button>
+  <input id="musicFile" type="file" accept="audio/*" hidden>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
